@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --pink : #f1b2d7;
+    --green : rgb(208,233,87);
+    --orange : #FFBC02;
+    --smoky : rgb(255,249,247);
+}

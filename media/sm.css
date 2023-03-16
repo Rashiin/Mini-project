@@ -1,0 +1,10 @@
+
+@media screen and (min-width:540px) and (max-width:768px){
+    
+div.menu>div:nth-of-type(2)>a{
+    display: none;
+}
+div.wrapper{
+    background-color: brown;
+}
+}
