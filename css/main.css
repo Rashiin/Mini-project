@@ -103,13 +103,13 @@ div.card{
     cursor: pointer;
     height: 400px;
     padding: 10px;
-    justify-content: space-around;
+    justify-content: space-between;
     border-radius: 20px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
-    margin-bottom: 16px;
+    margin-bottom: 26px;
 }
 div.card:nth-of-type(1){
     background-color: var(--pink);
@@ -129,15 +129,28 @@ div.card>img{
 div.card:nth-of-type(2)>h1{
     border-bottom: 1px solid #1B1212;
     padding: 5px;
-    margin-bottom: 2px;
+    margin-bottom: 28px;
+}
+div.card>div>h1{
+    font-size: 33px;
+    margin-bottom: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div.card>div>span,div.card>span{
+    font-weight: bold;
+    padding: 2px;
+    font-size: 20px;
 }
 div.card>h1,div.card>span,div.card>p{
 
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div.card>p{
+    margin-bottom: 15px;
 }
 div.card:nth-of-type(2)>h1>img{
     width: 40px;
-    margin-left: 5px;
+    margin-left: 25px;
 }
 /* Responsive part */
 @media screen and (max-width:540px) {
@@ -149,6 +162,9 @@ div.card:nth-of-type(2)>h1>img{
     }
     div.card{
         width:70%;
+    }
+    div.card>div>h1,div.card>h1{
+        font-size: 25px;
     }
 }
 @media screen and (min-width:540px) and (max-width:768px){
